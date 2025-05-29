@@ -3,7 +3,7 @@ Sentinelprep is a Python library for Sentinel-2 L2A imagery designed to simplify
 
 # Install dependencies
 Use the environment.yml
-conda env create -f environment.yaml
+<code>`conda env create -f environment.yaml`</code>
 
 # Features
 1. Band File Management (rename_bands, find_band_files)
