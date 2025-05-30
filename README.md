@@ -1,6 +1,6 @@
 # Sentinelprep
-Sentinelprep is a Python library for Sentinel-2 L2A imagery designed to simplify raw-data pre-processing. It provides convenient TIFF image reading and writing, converts DN values to reflectance, and performs PCA dimensionality reduction on user-selected bands.
-
+Sentinelprep is a Python library for Sentinel-2 L2A imagery designed to simplify raw-data pre-processing. It provides convenient TIFF image reading and writing, and performs PCA dimensionality reduction on user-selected bands.
+Moreover, since SentinelPrep is tailored to Sentinel-2 L2A data—and Sentinel-2 encodes true surface reflectance as integers scaled by 1000，SentinelPrep provides the scale_reflectance() function to normalize DN values to ease further processing.
 # Dependencies and installaton
 Sentinelprep relies on the following libraries:
 numpy – Handles the number caculations and keeps the pixel data in neat arrays.
